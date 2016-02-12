@@ -1,0 +1,19 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!--home page dimens-->
+    <dimen name="min_padding">1dp</dimen>
+    <dimen name="minl_padding">2dp</dimen>
+    <dimen name="min_more_padding">5dp</dimen>
+    <dimen name="med_padding">10dp</dimen>
+    <dimen name="med_m_padding">20dp</dimen>
+    <dimen name="l_padding">30dp</dimen>
+    <dimen name="x_padding">70dp</dimen>
+    <dimen name="test_anchor_size">500dp</dimen>
+    <dimen name="text_padding">17dp</dimen>
+    <!--End home page dimens-->
+
+</resources>

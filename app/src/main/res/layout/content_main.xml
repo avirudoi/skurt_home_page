@@ -1,0 +1,212 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.MainActivity">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/min_padding"
+            android:background="@color/dark_gray"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/med_padding"
+            android:background="@color/light_gray"
+            android:orientation="vertical">
+
+        <com.avirpro.aviseekbar.helper.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/delivery_location"
+            android:layout_marginBottom="@dimen/min_more_padding"
+            android:layout_marginLeft="@dimen/med_m_padding"
+            app:textViewFontName="AvenirLTStd-Heavy.otf"
+            android:textColor="@color/bright_blue"/>
+
+        <com.avirpro.aviseekbar.helper.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/dark_black"
+            android:layout_marginLeft="@dimen/med_m_padding"
+            app:textViewFontName="AvenirLTStd-Light.otf"
+            android:text="@string/need_a_rental_car"/>
+
+        </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/min_padding"
+                android:background="@color/dark_gray"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="100"
+                android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/med_padding"
+                android:layout_weight="50"
+                android:orientation="vertical">
+
+            <com.avirpro.aviseekbar.helper.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/start"
+                android:layout_marginLeft="@dimen/med_m_padding"
+                app:textViewFontName="AvenirLTStd-Heavy.otf"
+                android:layout_marginBottom="@dimen/min_more_padding"
+                android:textColor="@color/dark_black"/>
+
+            <com.avirpro.aviseekbar.helper.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/dark_black"
+                android:layout_marginLeft="@dimen/med_m_padding"
+                app:textViewFontName="AvenirLTStd-Light.otf"
+                android:text="@string/tap_to_select"/>
+
+        </LinearLayout>
+
+            <View
+                android:layout_width="@dimen/min_padding"
+                android:layout_height="match_parent"
+                android:background="@color/dark_gray"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/med_padding"
+                android:layout_weight="50"
+                android:orientation="vertical">
+
+            <com.avirpro.aviseekbar.helper.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/end"
+                android:layout_marginLeft="@dimen/med_m_padding"
+                android:layout_marginBottom="@dimen/min_more_padding"
+                app:textViewFontName="AvenirLTStd-Heavy.otf"
+                android:textColor="@color/dark_black"/>
+
+            <com.avirpro.aviseekbar.helper.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/dark_black"
+                android:layout_marginLeft="@dimen/med_m_padding"
+                app:textViewFontName="AvenirLTStd-Light.otf"
+                android:text="@string/tap_to_select"/>
+
+        </LinearLayout>
+
+        </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/min_padding"
+                android:background="@color/dark_gray"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="bottom">
+
+            <ImageView
+                android:id="@+id/ivCarPic"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginRight="@dimen/med_padding"
+                android:layout_marginTop="@dimen/med_m_padding"
+                android:layout_marginBottom="@dimen/l_padding"
+                android:gravity="right">
+
+            <com.avirpro.aviseekbar.helper.CustomTextView
+                android:id="@+id/tvNmrSeats"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:textViewFontName="AvenirLTStd-Medium.otf"
+                android:layout_gravity="center_vertical" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_seat"
+                android:layout_marginRight="@dimen/minl_padding"
+                android:layout_marginLeft="@dimen/min_padding"/>
+
+            <View
+                android:layout_width="@dimen/min_padding"
+                android:layout_height="match_parent"
+                android:background="@color/more_dark_gray"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/med_padding"
+                android:orientation="vertical">
+
+            <com.avirpro.aviseekbar.helper.CustomTextView
+                android:id="@+id/tvSwagTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:textViewFontName="AvenirLTStd-Medium.otf" />
+
+            <com.avirpro.aviseekbar.helper.CustomTextView
+                android:id="@+id/tvMetaTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:textViewFontName="AvenirLTStd-Light.otf" />
+
+        </LinearLayout>
+
+        </LinearLayout>
+
+                <com.avirpro.aviseekbar.view.CustomPriceSeekBar
+                    android:id="@+id/cSeekbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    app:phased_base_background="@drawable/bg_bar"
+                    app:phased_base_margin_bottom="@dimen/l_padding"
+                    app:phased_base_margin_left="@dimen/med_padding"
+                    app:phased_base_margin_right="@dimen/med_padding"
+                    app:phased_base_margin_top="@dimen/l_padding"
+                    app:phased_item_height="@dimen/x_padding"
+                    app:phased_item_width="@dimen/x_padding">
+
+                </com.avirpro.aviseekbar.view.CustomPriceSeekBar>
+
+                <LinearLayout
+                    android:id="@+id/llTapToSelect"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/purple_color"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                <com.avirpro.aviseekbar.helper.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:textViewFontName="AvenirLTStd-Medium.otf"
+                    android:padding="@dimen/text_padding"
+                    android:textSize="@dimen/med_m_padding"
+                    android:textColor="@color/white"
+                    android:text="@string/select_location"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

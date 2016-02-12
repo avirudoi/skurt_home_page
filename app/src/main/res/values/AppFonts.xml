@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- NY Fashion Week Font name and size Definitions -->
+<resources>
+
+    <string name="primary_font">novecentowideBold.ttf</string>
+ 	<string name="second_primary_font">VarelaRegular.otf</string>
+ 	<string name="secondary_font">VarelaRegular.otf</string>
+ 	<string name="second_secondary_font">VarelaRegular.otf</string>
+ 	<string name="tertiary_font">VarelaRegular.otf</string>
+ 	<string name="second_tertiary_font">VarelaRegular.otf</string>
+ 	<string name="quarternary_font">VarelaRegular.otf</string>
+  	<string name="second_quarternary_font">VarelaRegular.otf</string>
+ 	<string name="nonary_font">novecentowideBold.ttf</string>
+ 	<string name="second_nonary_font">VarelaRegular.otf</string>
+ 	<string name="denary_font">OswaldMedium.ttf</string>
+ 	<string name="second_denary_font">OswaldRegular.ttf</string>
+
+	<dimen name="primary_font_size_12">12sp</dimen>
+  	<dimen name="primary_second_font_size_16">16sp</dimen>
+ 	<dimen name="secondary_font_size_12">12sp</dimen>
+ 	<dimen name="secondary_second_font_size_16">16sp</dimen>
+ 	<dimen name="tertiary_font_size_20">20sp</dimen>
+ 	<dimen name="tertiary_second_font_size_50">50sp</dimen>
+ 	<dimen name="quarternary_font_size_24">24sp</dimen>
+  	<dimen name="quarternary_second_font_size_12">12sp</dimen>
+ 	<dimen name="nonary_font_size_20">17sp</dimen>
+ 	<dimen name="nonary_second_font_size_10">10sp</dimen>
+ 	<dimen name="denary_font_size_36">36sp</dimen>
+ 	<dimen name="denary_second_font_size_16">16sp</dimen>
+
+
+	<string name="primary_font_varela_regular">VarelaRegular.otf</string>
+	<string name="second_primary_font_varela_regular">VarelaRegular.otf</string>
+	<string name="secondary_font_varela_regular">VarelaRegular.otf</string>
+	<string name="second_secondary_font_varela_regular">VarelaRegular.otf</string>
+	<string name="tertiary_font_novecento_wide_medium">novecentowide-medium-webfont.ttf</string>
+	<string name="second_tertiary_font_novecento_wide_bold">novecentowideBold.ttf</string>
+	<string name="quarternary_font_oswald_regular">OswaldRegular.ttf</string>
+
+	<string name="nonary_font_novecento_wide_bold">novecentowideBold.ttf</string>
+	<string name="second_nonary_font_novecento_wide_bold">novecentowideBold.ttf</string>
+	<string name="denary_font_oswald_bold">OswaldBold.ttf</string>
+	<string name="second_denary_font_oswald_regular">OswaldRegular.ttf</string>
+
+	<dimen name="primary_font_size_22_ios">16sp</dimen>
+	<dimen name="second_primary_font_size_16_ios">11sp</dimen>
+	<dimen name="secondary_font_size_18_ios">12sp</dimen>
+	<dimen name="second_secondary_font_size_24_ios">17sp</dimen>
+	<dimen name="tertiary_font_size_22_ios">16sp</dimen>
+	<dimen name="second_tertiary_font_size_20_ios">15sp</dimen>
+	<dimen name="quarternary_font_size_35_ios">22sp</dimen>
+
+	<dimen name="nonary_font_size_24_ios">14sp</dimen>
+	<dimen name="second_nonary_font_size_24_ios">18sp</dimen>
+	<dimen name="denary_font_size_30_ios">20sp</dimen>
+	<dimen name="second_denary_font_size_14_ios">11sp</dimen>
+
+</resources>
